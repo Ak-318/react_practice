@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+.name-card{
+  font-family: Aria;
+  color: white;
+  border-radius: 20px;
+  border: 10px;
+  background-color: rgb(153, 60, 240);  
+  border-color: black;
+  margin: 2px;
+  padding: 20px;
+  text-align: left;
 }

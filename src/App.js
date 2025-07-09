@@ -9,6 +9,8 @@ import Counter from './components/Counter'
 import Parent from './components/Parent'
 import ConditionalCheck from './components/ConditionalCheck'
 import NamesList from './components/NamesList'
+// import Form from './components/Form'
+import PropComponent from './components/PropComponent.jsx'
 
 
 function App() {
@@ -24,7 +26,10 @@ function App() {
       {/* <Counter/> */}
       {/* <Parent /> */}
       {/* <ConditionalCheck /> */}
-      <NamesList />
+      {/* <NamesList /> */}
+      {/* <Form /> */}
+      <PropComponent name="Siva" age={27} skill='Ruby' isStudent={false}/>
+      <PropComponent  />
 
     </div>
   );
