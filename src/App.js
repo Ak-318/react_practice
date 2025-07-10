@@ -13,7 +13,7 @@ import NamesList from './components/NamesList'
 import PropComponent from './components/PropComponent.jsx'
 import List from './components/List.jsx'
 import UseStateComponent from './components/UseStateComponent.jsx'
-
+import OnChangeComponent from './components/OnChangeComponent.jsx'
 
 function App() {
 
@@ -33,7 +33,8 @@ function App() {
       {/* <Form /> */}
       {/* <PropComponent name="Siva" age={27} skill='Ruby' isStudent={false}/> */}
       {/* <List /> */}
-      <UseStateComponent />
+      {/* <UseStateComponent /> */}
+      <OnChangeComponent />
 
     </div>
   );
