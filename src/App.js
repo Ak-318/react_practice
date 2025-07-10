@@ -11,9 +11,11 @@ import ConditionalCheck from './components/ConditionalCheck'
 import NamesList from './components/NamesList'
 // import Form from './components/Form'
 import PropComponent from './components/PropComponent.jsx'
+import List from './components/List.jsx'
 
 
 function App() {
+
   return (
     <div className="App">
       {/* <Greet />
@@ -28,8 +30,8 @@ function App() {
       {/* <ConditionalCheck /> */}
       {/* <NamesList /> */}
       {/* <Form /> */}
-      <PropComponent name="Siva" age={27} skill='Ruby' isStudent={false}/>
-      <PropComponent  />
+      {/* <PropComponent name="Siva" age={27} skill='Ruby' isStudent={false}/> */}
+      <List />
 
     </div>
   );
