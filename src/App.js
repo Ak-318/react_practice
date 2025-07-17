@@ -14,6 +14,7 @@ import PropComponent from './components/PropComponent.jsx'
 import List from './components/List.jsx'
 import UseStateComponent from './components/UseStateComponent.jsx'
 import OnChangeComponent from './components/OnChangeComponent.jsx'
+import UpdateArrayObjects from './components/UpdateArrayObjects.jsx';
 
 function App() {
 
@@ -34,7 +35,8 @@ function App() {
       {/* <PropComponent name="Siva" age={27} skill='Ruby' isStudent={false}/> */}
       {/* <List /> */}
       {/* <UseStateComponent /> */}
-      <OnChangeComponent />
+      {/* <OnChangeComponent /> */}
+      <UpdateArrayObjects />
 
     </div>
   );
