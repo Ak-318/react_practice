@@ -15,6 +15,7 @@ import List from './components/List.jsx'
 import UseStateComponent from './components/UseStateComponent.jsx'
 import OnChangeComponent from './components/OnChangeComponent.jsx'
 import UpdateArrayObjects from './components/UpdateArrayObjects.jsx';
+import ToDoList from './components/ToDoList.jsx';
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
       {/* <List /> */}
       {/* <UseStateComponent /> */}
       {/* <OnChangeComponent /> */}
-      <UpdateArrayObjects />
+      {/* <UpdateArrayObjects /> */}
+      <ToDoList />
 
     </div>
   );
