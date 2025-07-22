@@ -16,6 +16,7 @@ import UseStateComponent from './components/UseStateComponent.jsx'
 import OnChangeComponent from './components/OnChangeComponent.jsx'
 import UpdateArrayObjects from './components/UpdateArrayObjects.jsx';
 import ToDoList from './components/ToDoList.jsx';
+import FetchDetails from './components/FetchDetails.jsx'
 
 function App() {
 
@@ -38,7 +39,8 @@ function App() {
       {/* <UseStateComponent /> */}
       {/* <OnChangeComponent /> */}
       {/* <UpdateArrayObjects /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      <FetchDetails />
 
     </div>
   );
